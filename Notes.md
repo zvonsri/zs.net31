@@ -18,5 +18,5 @@ dotnet add tests/zsxunit.tests/zsxunit.tests.csproj reference zslib/zslib.csproj
 dotnet add tests/zsspecflow.tests/zsspecflow.tests.csproj reference zslib/zslib.csproj
 dotnet add tests/zsplaywright.tests/zsplaywright.tests.csproj reference zslib/zslib.csproj
 dotnet add tests/zsplaywright.tests/zsplaywright.tests.csproj package Microsoft.Playwright
-
+dotnet add d:/AZS/zs.net31/tests/zsplaywright.tests/zsplaywright.tests.csproj package Microsoft.Playwright -v 1.15.3 -s https://api.nuget.org/v3/index.json 
 ```
